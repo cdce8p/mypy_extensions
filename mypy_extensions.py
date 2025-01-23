@@ -153,6 +153,9 @@ def KwArg(type=Any):
 # Deprecated, use typing or typing_extensions variants instead
 class _DEPRECATED_NoReturn: pass
 
+#
+class NoMatch: pass
+
 
 def trait(cls):
     return cls
